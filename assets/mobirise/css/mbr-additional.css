@@ -1413,6 +1413,14 @@ body {
   background: #ff3366 !important;
   box-shadow: none !important;
 }
+.cid-rBXjydSc9v {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rBXjydSc9v P {
+  color: #767676;
+}
 .cid-rBWZj63bjo .navbar {
   background: #efefef;
   transition: none;
@@ -1813,18 +1821,10 @@ body {
   color: #767676 !important;
 }
 .cid-rBXeOYZwF3 {
-  padding-top: 135px;
-  padding-bottom: 135px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #7f1933;
 }
 .cid-rBXeOYZwF3 P {
-  color: #767676;
-}
-.cid-rBXjydSc9v {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-rBXjydSc9v P {
   color: #767676;
 }
