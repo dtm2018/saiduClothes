@@ -474,7 +474,7 @@
         {
           "_params": {
             "autoplay": true,
-            "animType": "basic",
+            "animType": "louvers",
             "theme": "tick",
             "slides": [
               {
