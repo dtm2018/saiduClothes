@@ -1813,10 +1813,18 @@ body {
   color: #767676 !important;
 }
 .cid-rBXeOYZwF3 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ff7f9f;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #efefef;
 }
 .cid-rBXeOYZwF3 P {
+  color: #767676;
+}
+.cid-rBXjydSc9v {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rBXjydSc9v P {
   color: #767676;
 }
