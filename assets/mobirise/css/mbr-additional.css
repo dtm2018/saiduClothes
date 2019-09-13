@@ -1418,11 +1418,32 @@ body {
 }
 .cid-rBZuMHuQeD {
   padding-top: 90px;
-  padding-bottom: 90px;
-  background: linear-gradient(45deg, #ffffff, #c1c1c1);
+  padding-bottom: 0px;
+  background: linear-gradient(45deg, #efefef, #efefef);
 }
 .cid-rBZuMHuQeD H1 {
   color: #1449cc;
+}
+.cid-rBZA7J0La6 {
+  background: #efefef;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rBZA7J0La6 .image-block {
+  margin: auto;
+}
+.cid-rBZA7J0La6 figcaption {
+  position: relative;
+}
+.cid-rBZA7J0La6 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rBZA7J0La6 .image-block {
+    width: 100% !important;
+  }
 }
 .cid-rBXsWNc66E {
   padding-top: 15px;
