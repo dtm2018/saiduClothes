@@ -478,7 +478,7 @@
             "theme": "boundary",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/slide3-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide3-1024x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@ADDONS_PATH@/wowslider/assets/images/slide3.jpg",
@@ -487,7 +487,7 @@
                 "text": "text 1"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slide2-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide2-1-1024x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@ADDONS_PATH@/wowslider/assets/images/slide2.jpg",
@@ -497,7 +497,7 @@
                 "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slide1-1600x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide1-1-1024x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@ADDONS_PATH@/wowslider/assets/images/slide1.jpg",
@@ -509,7 +509,7 @@
             "fullScreen": true,
             "showCaptions": false,
             "hideControls": false,
-            "responsive": "2",
+            "responsive": "3",
             "paddingTop": 0,
             "paddingBottom": 0,
             "captionsEffect": "slide",
