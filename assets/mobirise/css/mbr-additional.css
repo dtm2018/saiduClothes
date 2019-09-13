@@ -1601,6 +1601,66 @@ body {
   text-decoration: line-through;
   color: #767676;
 }
+.cid-rBYnmT2fJN {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rBYnmT2fJN h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rBYnmT2fJN p {
+  color: #767676;
+  margin: 0;
+}
+.cid-rBYnmT2fJN .card-box {
+  background-color: #ffffff;
+  background-color: transparent;
+}
+.cid-rBYnmT2fJN .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rBYnmT2fJN .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rBYnmT2fJN .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cid-rBYnmT2fJN .border_wrapper {
+  border-left: 1px solid #efefef;
+  padding-left: 2rem;
+}
+@media (max-width: 991px) {
+  .cid-rBYnmT2fJN .border_wrapper {
+    border-left: none;
+    padding-left: 0;
+  }
+  .cid-rBYnmT2fJN .mbr-section-btn a {
+    padding: 1rem 2rem;
+  }
+  .cid-rBYnmT2fJN .mbr-figure {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rBYnmT2fJN .wrapper {
+    align-items: center;
+    text-align: center;
+  }
+  .cid-rBYnmT2fJN .col-left h4 {
+    padding-top: 1rem;
+  }
+  .cid-rBYnmT2fJN p.col-right {
+    padding-top: 1rem;
+  }
+}
 .cid-rBWZj63bjo .navbar {
   background: #ffffff;
   transition: none;
