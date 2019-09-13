@@ -478,26 +478,27 @@
             "theme": "boundary",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/slide3-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide3-2-1600x900.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@ADDONS_PATH@/wowslider/assets/images/slide3.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
                 "title": "title 1",
-                "text": "text 1"
+                "text": "text 1",
+                "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slide2-2-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide2-1-1600x900.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@ADDONS_PATH@/wowslider/assets/images/slide2.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
                 "title": "title 2",
                 "text": "text 2",
-                "active": true
+                "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slide1-1-1024x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide1-1600x900.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@ADDONS_PATH@/wowslider/assets/images/slide1.jpg",
@@ -509,7 +510,7 @@
             "fullScreen": true,
             "showCaptions": false,
             "hideControls": false,
-            "responsive": "1",
+            "responsive": "2",
             "paddingTop": 0,
             "paddingBottom": 0,
             "captionsEffect": "slide",
