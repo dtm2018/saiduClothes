@@ -472,34 +472,34 @@
         },
         {
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "animType": "kenburns",
             "theme": "boundary",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide3-1024x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide3.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
                 "title": "title 1",
                 "text": "text 1"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide2-1024x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide2.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
                 "title": "title 2",
                 "text": "text 2",
                 "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/slide1-1024x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "src": "@ADDONS_PATH@/wowslider/assets/images/slide1.jpg",
                 "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
                 "title": "title 3",
                 "text": "text 3"
@@ -508,7 +508,7 @@
             "fullScreen": true,
             "showCaptions": false,
             "hideControls": false,
-            "responsive": "1",
+            "responsive": "3",
             "paddingTop": 0,
             "paddingBottom": 0,
             "captionsEffect": "slide",
