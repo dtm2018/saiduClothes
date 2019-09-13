@@ -1414,13 +1414,13 @@ body {
   box-shadow: none !important;
 }
 .cid-rBWZj63bjo .navbar {
-  background: #ffffff;
+  background: #efefef;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-rBWZj63bjo .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #efefef;
 }
 .cid-rBWZj63bjo a {
   font-style: normal;
@@ -1511,7 +1511,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rBWZj63bjo .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #efefef;
   display: none;
   position: absolute;
   min-width: 5rem;
