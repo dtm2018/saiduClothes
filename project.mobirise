@@ -473,7 +473,7 @@
         },
         {
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "animType": "louvers",
             "theme": "boundary",
             "slides": [
