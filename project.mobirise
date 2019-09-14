@@ -40,14 +40,14 @@
     "mcShopcart": {
       "email": "dtmxxx2017@gmail.com",
       "iconSize": "30",
-      "iconColor": "#b8312f",
+      "iconColor": "#00a885",
       "backColor": "#000000",
       "topOffset": "120",
       "rightOffset": "20",
       "siteWidth": "1150",
       "counterSize": "12",
       "counterColor": "#FFFFFF",
-      "counterBack": "#00a885",
+      "counterBack": "#b8312f",
       "checkoutButton": "Check out with"
     }
   },
