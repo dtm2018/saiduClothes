@@ -6300,6 +6300,20 @@ body {
     font-size: 20px !important;
   }
 }
+.cid-rC3BGZ8yin {
+  background: #ff3366;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #ff3366, #ffffff);
+}
+.cid-rC3BGZ8yin .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rC3BGZ8yin .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rC3mfEyzrL {
   padding-top: 30px;
   padding-bottom: 30px;
