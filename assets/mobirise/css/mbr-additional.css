@@ -3577,13 +3577,14 @@ body {
 .cid-rC2N7Efzb3 .carousel-inner > .active,
 .cid-rC2N7Efzb3 .carousel-inner > .next,
 .cid-rC2N7Efzb3 .carousel-inner > .prev {
-  display: -webkit-flex;
+  XXXdisplay: -webkit-flex;
 }
 .cid-rC2N7Efzb3 .carousel-control .icon-next,
 .cid-rC2N7Efzb3 .carousel-control .icon-prev {
   margin-top: -18px;
-  font-size: 40px;
+  XXXfont-size: 40px;
   line-height: 27px;
+  opacity: .1;
 }
 .cid-rC2N7Efzb3 .carousel-control:hover {
   background: #1b1b1b;
