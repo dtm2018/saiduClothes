@@ -3026,28 +3026,6 @@ body {
 .cid-rBZ7TN1eXm textarea.form-control {
   min-height: 120px;
 }
-.cid-rC43aRb2yD {
-  background: #0f7699;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: linear-gradient(0deg, #cc2952, #0f7699);
-}
-.cid-rC43aRb2yD .image-block {
-  margin: auto;
-}
-.cid-rC43aRb2yD figcaption {
-  position: relative;
-}
-.cid-rC43aRb2yD figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rC43aRb2yD .image-block {
-    width: 100% !important;
-  }
-}
 .cid-rBYc0C7O7i {
   padding-top: 30px;
   padding-bottom: 30px;
