@@ -7049,8 +7049,10 @@ body {
   margin: 0 0 .5rem 0;
 }
 .cid-rC5cpO3GM9 .whatSize {
-  color: red;
-  font-size: 18px;
+  color: #333;
+  font-size: 20px;
+  height: 2.5em;
+  padding: 2px;
   width: 50%;
 }
 .cid-rC4VeBmi53 {
