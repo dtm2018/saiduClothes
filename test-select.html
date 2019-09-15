@@ -66,7 +66,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/j">website templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
+<section class="engine"><a href="https://mobirise.info/g">how to build a website for free</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
 
     
     <div class="container content-slider">
@@ -85,7 +85,7 @@
     <div class="container">
         <div class="row justify-content-center content-row">
             <div class="media-container-column title col-12 col-lg-7 col-md-6">
-                <select id="dtm" class="whatSize">
+                <select id="dtm" class="whatSize" onchange="doCC(this)">
                     <option value="">Choose Size</option>
                     <option value="sm">SM (up to 31")</option>
                     <option value="md">MD (32" - 34")</option>
@@ -147,7 +147,7 @@ currency_code=USD" xdata-app-placeholder="Type Text">
                   
                   
                   
-              <th xclass="head-item mbr-fonts-style" xdata-app-selector=".head-item">vv</th><th class="head-item mbr-fonts-style display-7" xdata-app-selector=".head-item">
+              <th xclass="head-item mbr-fonts-style" xdata-app-selector=".head-item">vvxx</th><th class="head-item mbr-fonts-style display-7" xdata-app-selector=".head-item">
                       BUY$</th></tr>
             </thead>
 
@@ -266,27 +266,18 @@ currency_code=USD" xdata-app-placeholder="Type Text">
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
   
-  <script > 
-function doIt() {
-  let aSize = document.querySelector('#dtm').value;
-  alert('aSize = ' + aSize);
-  
-  window.location = 'https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Afro+Shirt1+(SM)&currency_code=USD';
-    
-    
-    if (aSize) {
-        switch (aSize) {
-			case "SM": document.location.href = 'https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Afro+Shirt1+(SM)&currency_code=USD'; break;
-			case "MD": document.location.href = 'https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Afro+Shirt1+(SM)&currency_code=USD'; break;
-			case "LG": document.location.href = 'https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Afro+Shirt1+(SM)&currency_code=USD'; break;
-			case "XL": document.location.href = 'https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Afro+Shirt1+(SM)&currency_code=USD'; break;
-			case "XXL": document.location.href = 'https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Afro+Shirt1+(SM)&currency_code=USD'; break;
-        }   
-        
-    }
-   
-    }
-	
+  <script>
+function doCC(size) {
+ 
+ alert(size.value)
+ cc=document.querySelector("A").getAttribute("href");
+ rgtNum=cc.indexOf('currency_code');
+ lftTxt = cc.slice(0, rgtNum-1);
+ rgtTxt = cc.slice(rgtNum-1);
+ xxx = lftTxt + '+(' +size.value +')'+ rgtTxt;
+ document.querySelector("a").setAttribute("href", xxx);
+ alert(xxx);
+}
 </script>
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
   </body>
