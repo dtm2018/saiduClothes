@@ -7053,7 +7053,10 @@ body {
   font-size: 20px;
   height: 2.5em;
   padding: 2px;
-  width: 50%;
+  width: 100%;
+}
+.cid-rC5cpO3GM9 #butAdd2Cart {
+  background-color: black !important;
 }
 .cid-rC4VeDGvpa .navbar {
   background: #dbffdb;
