@@ -66,7 +66,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/v">html templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
+<section class="engine"><a href="https://mobirise.info/w">html5 templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
 
     
     <div class="container content-slider">
@@ -147,7 +147,7 @@ currency_code=USD" xdata-app-placeholder="Type Text">
                   
                   
                   
-              <th xclass="head-item mbr-fonts-style" xdata-app-selector=".head-item">&nbsp;</th><th class="head-item mbr-fonts-style display-7" xdata-app-selector=".head-item">
+              <th xclass="head-item mbr-fonts-style" xdata-app-selector=".head-item">alu</th><th class="head-item mbr-fonts-style display-7" xdata-app-selector=".head-item">
                       BUY$</th></tr>
             </thead>
 
@@ -266,12 +266,18 @@ currency_code=USD" xdata-app-placeholder="Type Text">
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
   
-  <script>
+  
+
+
+<script>
 function doCC(size) {
  
 
- cc=document.querySelector("a").getAttribute("href");
- alert(size.value);
+ urlStr=document.querySelector("a").getAttribute("href");
+
+ alert('I CHOSE: '+ size.value);
+ alert('init URL String: ' + urlStr);
+
  rgtNum=cc.indexOf('currency_code');
  lftTxt = cc.slice(0, rgtNum-1);
  rgtTxt = cc.slice(rgtNum-1);
