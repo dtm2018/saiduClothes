@@ -7037,6 +7037,15 @@ body {
 .cid-rC4VezAaJO .content-slider-wrap {
   width: 62%;
 }
+.cid-rCcbIfDItF {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rCcbIfDItF .mbr-text,
+.cid-rCcbIfDItF blockquote {
+  color: #767676;
+}
 .cid-rC5cpO3GM9 {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -7054,86 +7063,6 @@ body {
   height: 2.5em;
   padding: 2px;
   width: 50%;
-}
-.cid-rC4VeBmi53 {
-  padding-top: 15px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-rC4VeBmi53 .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-rC4VeBmi53 .container-table {
-  margin: 0 auto;
-}
-.cid-rC4VeBmi53 .scroll {
-  overflow-x: auto;
-  padding: 0;
-}
-.cid-rC4VeBmi53 .dataTables_wrapper {
-  display: block;
-}
-.cid-rC4VeBmi53 .dataTables_wrapper .search {
-  margin-bottom: .5rem;
-}
-.cid-rC4VeBmi53 .dataTables_wrapper .table {
-  overflow-x: auto;
-}
-.cid-rC4VeBmi53 table {
-  width: 100% !important;
-  margin-top: 6px;
-  border: 1px solid #c1c1c1;
-  margin-bottom: 0;
-}
-.cid-rC4VeBmi53 table th {
-  border-top: none;
-  transition: all .2s;
-  border-bottom: none;
-  color: blue;
-}
-.cid-rC4VeBmi53 table th:hover {
-  Xbackground: #c1c1c1;
-  Xcolor: #000000;
-}
-.cid-rC4VeBmi53 table td {
-  border-top: 1px solid #c1c1c1;
-}
-.cid-rC4VeBmi53 table.table {
-  background: #efefef;
-}
-.cid-rC4VeBmi53 .dataTables_filter {
-  text-align: right;
-  margin-bottom: .5rem;
-}
-.cid-rC4VeBmi53 .dataTables_filter label {
-  display: inline;
-  white-space: normal !important;
-}
-.cid-rC4VeBmi53 .dataTables_filter input {
-  display: inline;
-  width: auto;
-  margin-left: .5rem;
-  border-radius: 100px;
-  padding-left: 1rem;
-}
-.cid-rC4VeBmi53 .dataTables_info {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  white-space: normal !important;
-}
-@media (max-width: 992px) {
-  .cid-rC4VeBmi53 .dataTables_filter {
-    text-align: center;
-  }
-}
-@media (max-width: 350px) {
-  .cid-rC4VeBmi53 .dataTables_filter {
-    text-align: center;
-  }
-  .cid-rC4VeBmi53 .dataTables_filter input {
-    width: 100% !important;
-    margin-left: 0 !important;
-  }
 }
 .cid-rC4VeDGvpa .navbar {
   background: #dbffdb;
