@@ -48,7 +48,7 @@
                         <a href="index.html"><img src="assets/images/logo2-1-136x122.jpg" alt="Mobirise" title="" style="height: 3.8rem;"></a>
                     
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="#top">SAIDU'S BOTIQUE</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="#top">SAIDU'S BOTIQUEalu</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,7 +65,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/v">html templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
+<section class="engine"><a href="https://mobirise.info/x">css templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
 
     
     <div class="container content-slider">
@@ -197,7 +197,9 @@
 <script>
 const url = "https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=MansShirt01&currency_code=USD";
 let cc = url;
-let newSize = "";
+let newSize, lftTxt, rgtTxt = "";
+let rgtNum = 0;
+
 
 function doCC(selSize) {
 /*
@@ -210,6 +212,17 @@ alert('cc str before: ' + cc);
  rgtNum = cc.indexOf('currency_code');
  lftTxt = cc.slice(0, rgtNum-1);
  rgtTxt = cc.slice(rgtNum-1);
+
+ newSize = lftTxt + '(' +selSize.value+ ')' + rgtTxt;
+ //newSize = `${lftTxt}(${selSize.value})${rgtTxt}`;
+
+alert('newSize: ' + newSize);
+
+ document.querySelector("#butAdd2Cart").setAttribute('href', url);
+
+}
+</script>
+
 
  newSize = lftTxt + '(' +selSize.value+ ')' + rgtTxt;
  //newSize = `${lftTxt}(${selSize.value})${rgtTxt}`;
