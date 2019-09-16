@@ -48,7 +48,7 @@
                         <a href="index.html"><img src="assets/images/logo2-1-136x122.jpg" alt="Mobirise" title="" style="height: 3.8rem;"></a>
                     
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="#top">SAIDU'S BOTIQUE</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="#top">SAIDU'S BOTIQUEx</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,7 +65,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/e">make your own site for free</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
+<section class="engine"><a href="https://mobirise.info/v">html templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
 
     
     <div class="container content-slider">
@@ -102,7 +102,8 @@
                     -->
  <a href="https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Shirt+One111&currency_code=USD" onclick="window.location = url" class="btn btn-primary btn-lg display-4">
         <span class="mbri-cart-add mbr-iconfont mbr-iconfont-btn"></span>
- </a></div>
+ </a>
+                </div>
             </div>
         </div>
     </div>
@@ -189,17 +190,11 @@ let cc = "https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&
 //goturl = document.querySelector("#ccurl").getAttribute("href");
 //goturl = document.getElementById("dtm").getAttribute("class");
 
-//alert(goturl.toString());
-
-// alert("I CHOSE: " + size.value);
-// alert("init URL String: " + urlStr);
-
-
  rgtNum=cc.indexOf('currency_code');
  lftTxt = cc.slice(0, rgtNum-1);
  rgtTxt = cc.slice(rgtNum-1);
  xxx = lftTxt + '+(' +selSize.value +')'+ rgtTxt;
- //document.querySelector("a").setAttribute("href", xxx);
+ document.querySelector("#butAdd2Cart").setAttribute("href", xxx);
  alert(xxx);
  url = xxx;
 
