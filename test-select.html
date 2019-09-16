@@ -62,7 +62,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/s">bootstrap themes</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
+<section class="engine"><a href="https://mobirise.info/v">free html templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
 
     
     <div class="container content-slider">
@@ -144,7 +144,7 @@ currency_code=USD">
                   
                   
                   
-              <th xclass="head-item mbr-fonts-style" xdata-app-selector=".head-item">ddd</th><th class="head-item mbr-fonts-style display-7" xdata-app-selector=".head-item">
+              <th xclass="head-item mbr-fonts-style" xdata-app-selector=".head-item">eee</th><th class="head-item mbr-fonts-style display-7" xdata-app-selector=".head-item">
                       BUY$</th></tr>
             </thead>
 
@@ -266,18 +266,20 @@ currency_code=USD">
   <script>
 function doCC(size) {
  
+urlStr = document.querySelector("#ccUrl").getAttribute("href");
 
- urlStr=document.querySelector("#ccUrl").getAttribute("href");
+alert('I CHOSE: '+ size.value);
+alert('init URL String: ' + urlStr);
 
- alert('I CHOSE: '+ size.value);
- alert('init URL String: ' + urlStr);
-
+/*
  rgtNum=cc.indexOf('currency_code');
  lftTxt = cc.slice(0, rgtNum-1);
  rgtTxt = cc.slice(rgtNum-1);
  xxx = lftTxt + '+(' +size.value +')'+ rgtTxt;
  document.querySelector("a").setAttribute("href", xxx);
  alert(xxx);
+*/
+
 }
 </script>
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
