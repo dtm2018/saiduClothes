@@ -6654,7 +6654,7 @@
         "title": "test-select",
         "order": 8,
         "header_custom": "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no\" />",
-        "footer_custom": "<script>\nfunction doCC(size) {\n \nurlStr = document.querySelector(\"#ccUrl\").getAttribute(\"href\");\n\nalert('I CHOSE: '+ size.value);\nalert('init URL String: ' + urlStr);\n\n/*\n rgtNum=cc.indexOf('currency_code');\n lftTxt = cc.slice(0, rgtNum-1);\n rgtTxt = cc.slice(rgtNum-1);\n xxx = lftTxt + '+(' +size.value +')'+ rgtTxt;\n document.querySelector(\"a\").setAttribute(\"href\", xxx);\n alert(xxx);\n*/\n\n}\n</script>",
+        "footer_custom": "<script>\nfunction doCC(size) {\n \nurlStr = document.querySelector(\"#ccUrl\").getAttribute(\"href\");\n\nalert(\"I CHOSE: \" + size.value);\nalert(\"init URL String: \" + urlStr);\n\n/*\n rgtNum=cc.indexOf('currency_code');\n lftTxt = cc.slice(0, rgtNum-1);\n rgtTxt = cc.slice(rgtNum-1);\n xxx = lftTxt + '+(' +size.value +')'+ rgtTxt;\n document.querySelector(\"a\").setAttribute(\"href\", xxx);\n alert(xxx);\n*/\n\n}\n</script>",
         "html_before": ""
       },
       "components": [
