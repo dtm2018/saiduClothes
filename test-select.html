@@ -65,7 +65,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/f">easy site maker</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
+<section class="engine"><a href="https://mobirise.info/q">responsive site templates</a></section><section class="carousel slide cid-rC4VezAaJO" data-interval="false" id="slider2-2z">
 
     
     <div class="container content-slider">
@@ -97,7 +97,7 @@
                 <br>
                 
                 <a id="butAdd2Cart" href="https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Shirt+One&currency_code=USD" class="btn btn-primary btn-lg">
-                <span style="font-size: 45px" class="mbri-cart-add mbr-iconfont mbr-iconfont-btn"></span>
+                <span style="font-size: 45px !important" class="mbri-cart-add mbr-iconfont mbr-iconfont-btn"></span>
                 </a>
                 
             </div>
@@ -195,37 +195,22 @@
   
 <script>
 const url = "https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=MansShirt01+SM&currency_code=USD";
+let cc = url;
 
-function doCC() {
+function doCC(selSize) {
 /*
 let xcc = "https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&cmd=_cart&amount=1.0&item_name=Shirt+One&currency_code=USD";
 let cc1 = "https://www.paypal.com/cgi-bin/webscr?business=dtmxxx2017%40gmail.com&business=dtmxxx2017%40gmail.com&amp;cmd=_cart&amp;amount=1.0&amp;item_name=Shirt+One+ALU&amp;currency_code=USD";
 */
 
-//alert(selSize.value);
-//alert(domAdd2Cart);
 
-//document.location.href = cc1;
-
-// document.querySelector("#butAdd2Cart").setAttribute('class','alu');
-
-
-document.querySelector("#butAdd2Cart").setAttribute('href', url);
-
-
-//goturl = document.getElementById("ccurl").getAttribute("class");
-//goturl = document.querySelector("#ccurl").getAttribute("href");
-//goturl = document.getElementById("dtm").getAttribute("class");
-
-/*
  rgtNum=cc.indexOf('currency_code');
  lftTxt = cc.slice(0, rgtNum-1);
  rgtTxt = cc.slice(rgtNum-1);
- xxx = lftTxt + '+(' +selSize.value +')'+ rgtTxt;
- document.querySelector("#butAdd2Cart").setAttribute("href", cc1);
- alert(xxx);
- url = xxx;
-*/
+ newSize = lftTxt + '+(' +selSize.value +')'+ rgtTxt;
+
+ document.querySelector("#butAdd2Cart").setAttribute('href', newSize);
+
 }
 </script>
 
