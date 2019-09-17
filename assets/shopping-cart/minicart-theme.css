@@ -21,6 +21,7 @@
 
 #PPMiniCart {
   z-index: 3000;
+  background-color: #ccc;
 }
 
 #PPMiniCart .minicart-subtotal{
@@ -50,8 +51,7 @@
   padding: 10px;
   color: black;
   border-radius: 50%;
-  Xbackground-color: rgba(250, 250, 250, 0.95);
-  background-color: #ccc !important;
+  background-color: rgba(250, 250, 250, 0.95);
 }
   #mc-shopcart span#mc-shopcart-qty {
     font: 300 12px sans-serif;
