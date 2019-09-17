@@ -21,7 +21,11 @@
 
 #PPMiniCart {
   z-index: 3000;
-  background-color: #ccc;
+  background-color: #ccc !important;
+}
+
+#PPMiniCart form {
+  background-color: #ccc !important;
 }
 
 #PPMiniCart .minicart-subtotal{
