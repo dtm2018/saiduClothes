@@ -27,6 +27,9 @@
 #PPMiniCart form {
   background-color: #1ab70b3b !important;
 }
+#PPMiniCart .minicart-remove {
+  background-color: red !important;
+}
 
 #PPMiniCart .minicart-subtotal{
       right: 10px;
