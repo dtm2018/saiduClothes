@@ -21,12 +21,13 @@
 
 #PPMiniCart {
   z-index: 3000;
-  background-color: pink !important;
+                                 background-color: pink !important;
 }
 
 #PPMiniCart .minicart-subtotal{
       right: 10px;
       left: auto !important;
+                                 background-color: pink !important;
 }
 .shoppingcart-icons {
   font-family: 'ShoppingCart';
