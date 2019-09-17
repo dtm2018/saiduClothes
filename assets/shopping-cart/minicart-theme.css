@@ -20,7 +20,9 @@
 }
 
 #PPMiniCart {
-  z-index: 3000; }
+  z-index: 3000;
+  background-color: pink !important;
+}
 
 #PPMiniCart .minicart-subtotal{
       right: 10px;
