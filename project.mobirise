@@ -5352,7 +5352,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">\n\n\n{JS_CODE_0}\n<div class=\"elfsight-app-7a0ad8b1-1555-41c3-b416-3445330a786f\"></div>\n\n",
+          "_customHTML": "\n{JS_CODE_0}\n<div class=\"elfsight-app-7a0ad8b1-1555-41c3-b416-3445330a786f\"></div>\n\n",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
