@@ -164,11 +164,11 @@
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
-            "modalCloseText": "Close",
-            "modalLink": false,
+            "modalCloseText": "exit",
+            "modalLink": true,
             "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
+            "modalLinkText": "Help !",
+            "modalLinkNewWindow": false,
             "modalVerticalCenter": false,
             "modalFade": true,
             "modalAutoOpen": false,
@@ -184,7 +184,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-3a",
-          "modalWindow": "<div class=\"modal fade\" id=\"mmm\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mmmLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-sm \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"mmmLabel\">Modal title</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"mmm_body\">Modal body text goes here.k</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#mmm\").on(\"hidden.bs.modal\", function () {    var html = $( \"#mmm_body\" ).html();    $( \"#mmm_body\" ).empty();    $( \"#mmm_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"mmm\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mmmLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-sm \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"mmmLabel\">Modal title</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"mmm_body\">Modal body text goes here.k</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">exit</a></div><div class=\"mbr-section-btn\"><a href=\"https://mobirise.com/\" class=\"no-anim btn btn-primary display-4\" >Help !</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#mmm\").on(\"hidden.bs.modal\", function () {    var html = $( \"#mmm_body\" ).html();    $( \"#mmm_body\" ).empty();    $( \"#mmm_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
