@@ -6680,7 +6680,7 @@
         "title": "buy",
         "order": 8,
         "header_custom": "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no\" />",
-        "footer_custom": "<script>\n\nfunction doCC(selSize) {\nconst cc = \"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=100.0&item_name=Saidu-Item-01&currency_code=USD\"; \n\nlet newSize = \"\"; \nlet lftTxt = \"\";\nlet rgtTxt = \"\";\nlet rgtNum = 0;\n\n rgtNum = cc.indexOf('currency_code');\n lftTxt = cc.slice(0, rgtNum-1);\n rgtTxt = cc.slice(rgtNum-1);\n\n newSize = `${lftTxt} [${selSize.value}]${rgtTxt}`;\n\ndocument.querySelector(\"#butAdd2Cart\").setAttribute('href', newSize);\n\ndarkenBackDrop() \n}\n\nfunction darkenBackDrop() {\n     var node = document.createElement(\"div\")\n     node.classList.add(\"mystyle\");\n     document.body.appendChild(node);\n}\n\n</script>\n",
+        "footer_custom": "<script>\n\nfunction doCC(selSize) {\nconst cc = \"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=100.0&item_name=Saidu-Item-01&currency_code=USD\"; \n\nlet newSize = \"\"; \nlet lftTxt = \"\";\nlet rgtTxt = \"\";\nlet rgtNum = 0;\n\n rgtNum = cc.indexOf('currency_code');\n lftTxt = cc.slice(0, rgtNum-1);\n rgtTxt = cc.slice(rgtNum-1);\n\n newSize = `${lftTxt} [${selSize.value}]${rgtTxt}`;\n\ndocument.querySelector(\"#butAdd2Cart\").setAttribute('href', newSize);\n\ndarkenBackDrop() \n}\n\nfunction darkenBackDrop() {\n     var node = document.createElement(\"div\")\n     node.classList.add(\"backDropCss\");\n     document.body.appendChild(node);\n}\n\n</script>\n",
         "html_before": ""
       },
       "components": [
