@@ -20,16 +20,7 @@
 }
 
 #PPMiniCart {
-  z-index: 3000;
-  background-color: #ccc !important;
-}
-
-#PPMiniCart form {
-  background-color: #1ab70b1c !important;
-}
-#PPMiniCart .minicart-remove {
-  background-color: red !important;
-}
+  z-index: 3000; }
 
 #PPMiniCart .minicart-subtotal{
       right: 10px;
@@ -58,8 +49,7 @@
   padding: 10px;
   color: black;
   border-radius: 50%;
-  background-color: rgba(250, 250, 250, 0.95);
-}
+  background-color: rgba(250, 250, 250, 0.95); }
   #mc-shopcart span#mc-shopcart-qty {
     font: 300 12px sans-serif;
     position: absolute;
